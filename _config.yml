@@ -1,0 +1,11 @@
+# Site settings
+title: Tyler Fitch
+email: blog@tfitch.com
+description: Patterns in automation.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tfitch.com" # the base hostname & protocol for your site
+twitter_username: tfitch
+github_username:  tfitch
+
+# Build settings
+markdown: kramdown
