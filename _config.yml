@@ -1,11 +1,42 @@
 # Site settings
-title: Tyler Fitch
+title: "Tyler Fitch"
+author: "Tyler Fitch"
 email: blog@tfitch.com
 description: Patterns in automation.
-baseurl: "" # the subpath of your site, e.g. /blog/
+#subheading: "Really cool blog about ... something"
+more: "read more"
 url: "http://tfitch.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+
 twitter_username: tfitch
 github_username:  tfitch
 
 # Build settings
 markdown: kramdown
+
+
+comments:
+    disqus: "tfitch"
+
+style:
+#    body: "whitesmoke"
+    padding: 33%
+    anchor: "#46f"
+    serif-heading: true
+    nav: "#181818"
+#    headline: "#06f"
+    description: "white"
+    article:
+        odd: "#ffffff"
+        even: "#222222"
+
+links:
+  - github: "https://github.com/tfitch/"
+  - twitter: "https://twitter.com/tfitch/"
+  - google-plus: "https://plus.google.com/+tfitch"
+#  - reddit: "https://www.reddit.com/user/me/"
+#  - youtube: "https://www.youtube.com/user/me"
+  - steam: "http://steamcommunity.com/id/tfitch12/"
+
+excerpt_separator: "\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
