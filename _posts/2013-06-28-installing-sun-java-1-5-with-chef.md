@@ -39,7 +39,7 @@ bash "install-jdk15" do
   not_if { ::File.exists?('/install/location/path/jdk1.5.0_XYZ/README.html') }
 end
 {% endhighlight %}
-* Using the [magic_shell cookbook](https://supermarket.chef.io/cookbooks/magic_shell) - create a environment variables $JAVA_HOME just like the Java cookbook would and many Java apps now expect to exist. 
+* Using the [magic_shell cookbook](https://supermarket.chef.io/cookbooks/magic_shell) - create a environment variable $JAVA_HOME just like the Java cookbook would and many Java apps now expect to exist. 
 {% highlight ruby %}
 magic_shell_environment 'JAVA_HOME' do
   value '/install/location/path/java'
