@@ -5,7 +5,7 @@ email: blog@tfitch.com
 description: Patterns in automation.
 #subheading: "Really cool blog about ... something"
 more: "read more"
-url: "http://tfitch.github.io" # the base hostname & protocol for your site
+url: "http://tfitch.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 twitter_username: tfitch
