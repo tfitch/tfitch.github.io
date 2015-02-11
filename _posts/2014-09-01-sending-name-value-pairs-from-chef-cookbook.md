@@ -7,7 +7,8 @@ categories:
 ---
 One of my customers had a question about using name/value pairs from his cookbook’s attributes as settings for a Resource.
 
-*TL;DR* - The name/value pairs in a cookbook Resource object are more than just a combination of attribute + value. More precisely, they’re a method_name + value combination. So making the method_name come from a dynamic source requires you use `send()` method of a Ruby Object to invoke the method, not just output a String equal to what the cookbook would look like if everything was hard coded.
+## TL;DR
+The name/value pairs in a cookbook Resource object are more than just a combination of attribute + value. More precisely, they’re a method_name + value combination. So making the method_name come from a dynamic source requires you use `send()` method of a Ruby Object to invoke the method, not just output a String equal to what the cookbook would look like if everything was hard coded.
 
 ### Long form:
 Let’s start with the hardcoded cookbook recipe and see what that would look like.

@@ -8,7 +8,8 @@ categories:
 ---
 We’re working on a method for self discovery of a group of servers being setup to be a MongoDB replica set.  And a specific replica set among an environment with multiple MongoDB servers and replica sets at that.
 
-*TL;DR* A cookbook’s node attributes are uploaded back to the server and available to be searched against.  Here’s the secret to searching on the Node’s attributes defined in the cookbook.  In the cookbook we had `node[‘mongodb’][‘replica_set’]` but when we wanted to search for it we did `mongodb_replica_set:ReplSet1` - chaining the full name of the attributes with underscores.  Doesn’t entirely seem intuitive, but it is the way Search works with the underlying Solr engine in the Chef Server.
+## TL;DR
+A cookbook’s node attributes are uploaded back to the server and available to be searched against.  Here’s the secret to searching on the Node’s attributes defined in the cookbook.  In the cookbook we had `node[‘mongodb’][‘replica_set’]` but when we wanted to search for it we did `mongodb_replica_set:ReplSet1` - chaining the full name of the attributes with underscores.  Doesn’t entirely seem intuitive, but it is the way Search works with the underlying Solr engine in the Chef Server.
 
 Out of all the nodes in a Chef server Organization we’re going to use three keys to identify the nodes/machines of a single replica set.
 
