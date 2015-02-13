@@ -16,3 +16,4 @@ https://help.github.com/articles/viewing-contributions-on-your-profile-page/#how
 I focused on turning my customer's questions in to action items I could turn in to commits.
 I moved this blog from Tumblr so that my writing would count as commits.  And in the process learned some at Jekyll.
 Instead of just asking for a Pull Request to be merged to the Ohai repo, I asked how to do it, and then did it myself.
+The draft for this post got my streak up to 33 days.
