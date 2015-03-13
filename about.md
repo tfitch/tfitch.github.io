@@ -1,11 +1,6 @@
 ---
-layout: page
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Tyler is a member of [Chef](http://chef.io)’s Customer Engineering team - championing successful patterns and delightful experiences in automation to enterprise customers large and small.  Prior to working at Chef he spent a decade as an engineer for Adobe developing and automating commerce services for [adobe.com](http://www.adobe.com) using a variety of technologies.  He lives in Vancouver, WA (not Canada) and when he’s not programming enjoys lacrosse and using his passport.
