@@ -16,7 +16,7 @@ So I thought about the question for a while and came up with a possible solution
 
 ##TL;DR
 * Understand that the public key is an artifact and should be treated as such.
-* Decided what the preferred method for artifact sharing is within your architecture.
+* Decide what the preferred method for artifact sharing is within your architecture.
 * Use that method (probably something like [Artifactory](https://www.jfrog.com/artifactory/)) to make the public keys accessible via HTTP(S) for easy consumption by the tools that need it.
 
 ## Share the Public Key
