@@ -9,7 +9,7 @@ A common theme my customers will ask is "How/when do I trust Community Cookbooks
 
 ## TL;DR
 * You learn to trust [community cookbooks](https://supermarket.chef.io/) by testing the cookbooks meets your needs
-* You'll want to use a community cookbook to save you from reinventing the wheel.
+* Using a community cookbook can save you from reinventing the wheel. *Edited after input from [Noah Kantrowitz](https://twitter.com/kantrn/status/695752423781040128)*
 
 
 Before diving in to just using the cookbook and rolling it out to your production environment(s) we want to make sure you have a solid plan to do this.
